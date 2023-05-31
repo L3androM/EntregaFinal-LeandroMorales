@@ -1,3 +1,3 @@
-# PreEntrega2-LeandroMorales
+# Entrega de trabajo final !!! 🙌 😎✌️🥳
 
-Intro a GitHub 👍
+Tuve algunos inconvenientes a la hora de pushear pero salió bien ( espero)
