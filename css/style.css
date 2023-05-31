@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
-.btn-gral, .btn-compra {
+.btn, .btn-compra {
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -11,6 +11,18 @@
 
 .btn-compra {
   border-color: black;
+}
+
+.imagen{
+  width: 50%;
+}
+.error{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
