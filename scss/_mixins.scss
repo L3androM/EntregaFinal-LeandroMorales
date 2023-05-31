@@ -1,0 +1,27 @@
+.btn-gral{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $textMd;
+    background-color: $mainColor;
+    color: white;
+}
+
+.btn-compra{
+    @extend .btn-gral;
+    border-color: black;
+}
+
+@mixin textos($size, $padding, $color){
+    font-family: $mainFont;
+    font-size: $size;
+    padding: $padding;
+    color: $color;
+}
+h1{
+    @include textos(3em,10px,black)
+}
+p{
+    @include textos(1.2em,5px, $secondaryColor )
+}
